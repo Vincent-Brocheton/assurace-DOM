@@ -1,7 +1,9 @@
 let button = document.getElementById("calcul");
 
 button.addEventListener("click", (e) => {
+
     e.preventDefault();
+
     let colorRes = document.getElementById("colorRes");
     let result = document.getElementById("result");
     let lastName = document.getElementById("lastName").value;
