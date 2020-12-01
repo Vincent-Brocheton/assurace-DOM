@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="centre">
+        <form class="form-group col-6">
+            <label for="lastName"> Nom : </label>
+            <input class="form-control" type="text" id="lastName" name="lastName" placeholder="Veuillez entrer votre nom">
+            <label for="firstName"> Prénom : </label>
+            <input class="form-control" type="text" id="firstName" name="firstName" placeholder="Veuillez entrer votre prénom">
+            <label for="age"> Âge : </label>
+            <input class="form-control" type="number" name="age" id="age" placeholder="Quel âge avez-vous?">
+            <label for="permis"> Temps de permis : </label>
+            <input class="form-control" type="number" name="permis" id="permis" placeholder="Depuis combien de temps avez vous le permis?">
+            <label for="accident"> Nombre d'accident : </label>
+            <input class="form-control" type="number" name="accident" id="accident" placeholder="Combien d'accident avez vous eu?">
+            <label for="yearsAssur">Fidélité : </label>
+            <input class="form-control" type="number" name="yearsAssur" id="yearsAssur">
+            <div class="end">
+                <button class="btn btn-primary mt-2" id="calcul">Valider</button>
+            </div>
+        </form>
+    </div>
+    <div class="space mt-5">
+        <div id="result"></div>
+        <div id="colorRes"></div>
+    </div>
+</body>
+
+<script src="vendor/components/jquery/jquery.min.js"></script>
+<script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,19 @@
+.centre {
+    display: flex;
+    justify-content: center;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#colorRes {
+    width: 3em;
+    height: 3em;
+}
+
+.space {
+    display: flex;
+    justify-content: space-around;
+}

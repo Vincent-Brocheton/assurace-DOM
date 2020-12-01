@@ -1,0 +1,14 @@
+{
+    "name": "vince/algo-assurance-version-dom",
+    "require": {
+        "twbs/bootstrap": "^4.5",
+        "components/jquery": "^3.5"
+    },
+    "license": "GPL 3.0",
+    "authors": [
+        {
+            "name": "Vincent.Brocheton",
+            "email": "vinc.brocheton@gmail.com"
+        }
+    ]
+}
