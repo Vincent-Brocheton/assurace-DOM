@@ -15,18 +15,13 @@ button.addEventListener("click", (e) => {
 
     let compteur = 0;
 
-    if (age_assure >= 25) {
-        compteur++;
-    }
-    if (annee_permis > 2) {
-        compteur++;
-    }
+    if (age_assure >= 25) { compteur++; }
+
+    if (annee_permis >= 2) { compteur++; }
 
     compteur = compteur - nb_accident;
 
-    if ((compteur === 0 || compteur === 1 || compteur === 2) && temps_assurance > 5) {
-        compteur++;
-    }
+    if ((compteur >= 0 && compteur <= 2) && temps_assurance >= 5) { compteur++; }
 
     if (compteur === 3) {
         colorRes.style.backgroundColor = "blue";
